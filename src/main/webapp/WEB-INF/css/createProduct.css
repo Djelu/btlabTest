@@ -1,0 +1,57 @@
+body {
+    margin-left: 20%;
+    padding: 10px;
+}
+
+.form {
+    display: inline-block;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.fild {
+    margin-bottom: 10px;
+    outline: none;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 20%;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0;
+    background-color: #ccc;
+    color: #fff;
+}
+.buttonOk{
+    margin-left: 15%;
+}
+.buttonCancel{
+    margin-left: 27%;
+    margin-right: 10%;
+}
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
+.place_storage_error {
+    color: red;
+    text-align: left;
+    font-size: 12px;
+    display: block;
+    margin-top: 3px;
+    display: none;
+}
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+}
+input:invalid:not(:placeholder-shown) + .place_storage_error {
+    display: block;
+}
