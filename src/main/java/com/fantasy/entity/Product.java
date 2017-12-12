@@ -10,7 +10,6 @@ public class Product {
     private Date create_date;
     private int place_storage;
     private boolean reserved;
-    private String place_storageError;
 
     public Product() {
     }
@@ -55,12 +54,5 @@ public class Product {
     }
     public void setReserved(boolean reserved) {
         this.reserved = reserved;
-    }
-
-    public String getPlace_storageError() {
-        return place_storageError;
-    }
-    public void setPlace_storageError(String place_storageError) {
-        this.place_storageError = place_storageError;
     }
 }
